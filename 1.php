@@ -1,2 +1,2 @@
 <?php
-phpinfo();
+highlight_string("<?php phpinfo();?>");
