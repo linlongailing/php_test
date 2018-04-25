@@ -13,6 +13,7 @@ $keyarr = array('name', 'type', 'tmp_name', 'size');
 //     $CKUpload = TRUE;
 //     unset($_FILES['upload']);
 // }
+echo "<pre>";print_r($_FILES);
 foreach($_FILES as $_key=>$_value)
 {
     foreach($keyarr as $k)
