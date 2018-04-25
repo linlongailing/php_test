@@ -14,7 +14,7 @@ function helper($helpers){
 
 	$helper_path=realpath(str_replace("\\", '/', dirname(__FILE__)));
 	if(file_exists($helper_path.'/helper/'.$helpers.'.helper.php')){
-		include $helper_path.'/helper/'.$helpers.'.helper.php';
+		include_once($helper_path.'/helper/'.$helpers.'.helper.php');
 		$_helper[$helpers]=true;
 	}
 
