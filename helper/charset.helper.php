@@ -1,6 +1,6 @@
 <?php
 
 //简单打印
-functon charset(){
+function charset(){
 	echo "uuuu";
 }

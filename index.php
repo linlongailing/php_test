@@ -1,6 +1,11 @@
 <?php
 include "./helper.php";
 
-helper('charset');
-
+$a=helper('charset');
+var_dump($a);
+echo "<br>";
 charset();
+
+
+$b=helper('charset');
+var_dump($b);
