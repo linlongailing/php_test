@@ -7,7 +7,7 @@ function helper($helpers){
 		foreach ($helpers as $value) {
 			helper($value);
 		}
-		return;
+		return 'cc';
 	}
 
 	if(isset($_helper[$helpers])){
