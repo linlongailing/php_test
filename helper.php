@@ -1,6 +1,7 @@
 <?php
 //助手载入函数
 $_helper=array();
+print_r($helper);
 function helper($helpers){
 	if(is_array($helpers)){
 		foreach ($helpers as $value) {
