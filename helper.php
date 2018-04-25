@@ -9,7 +9,7 @@ function helper($helpers){
 	}
 
 	if(isset($_helper[$helpers])){
-		return true;
+		return 'aa';
 	}
 
 	$helper_path=realpath(str_replace("\\", '/', dirname(__FILE__)));
@@ -21,5 +21,5 @@ function helper($helpers){
 	if(!isset($_helper[$helpers])){
 		return false;
 	}
-	return true;
+	return 'bb';
 }
